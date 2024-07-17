@@ -19,7 +19,6 @@ http.createServer(function (req, res) {
       //  res.write('File uploaded and moved!');
       //  res.end();
       //})
-
     });
   } else {
     res.writeHead(200, {'Content-Type': 'text/html'});
